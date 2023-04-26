@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+       <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css"> 
+
+   
+</head>
+<!--headeri-->
+<header class="header">
+
+   <div class="header-1">
+      <div class="flex">
+         <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+         </div>
+         <p> new <a href="login.php">login</a> | <a href="register.php">register</a> </p>
+      </div>
+   </div>
+
+   <div class="header-2">
+      <div class="flex">
+         <a href="home.php" class="logo">DailyBook.</a>
+
+         <nav class="navbar">
+            <a href="home.php">home</a>
+            <a href="about.php">about</a>
+            <a href="shop.php">shop</a>
+            <a href="contact.php">contact</a>
+            <a href="orders.php">orders</a>
+         </nav>
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <a href="search_page.php" class="fas fa-search"></a>
+            <div id="user-btn" class="fas fa-user"></div>
+            
+            <a href="cart.php"> <i class="fas fa-shopping-cart"></i> </a>
+         </div>
+
+         <div class="user-box">
+            <p>username</p>
+            <p>email</p>
+            <a href="logout.php" class="delete-btn">logout</a>
+         </div>
+      </div>
+   </div>
+
+</header>
+<body>
+    <!--Home Page-->
+    <section class="home">
+
+   <div class="content">
+      <h3>Hand Picked Book to your door.</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
+      <a href="about.php" class="white-btn">discover more</a>
+      <img class = "image" src = "images/images\1.jpg" alt = ""> 
+   </div>
+
+</section>
+
+<section class="products">
+
+    <h1 class="title">latest products</h1>
+ 
+    <div class="box-container">
+ 
+      <form action="" method="post" class="box">
+       <img class="image" src="images\krimDheNdeshkim.jpg" alt="">
+       <div class="name">Krim Dhe Ndeshkim</div>
+       <div class="price">17€</div>
+       <input type="number" min="1" name="product_quantity" value="1" class="qty">
+       <input type="hidden" name="product_name" >
+       <input type="hidden" name="product_price" >
+       <input type="hidden" name="product_image" >
+       <input type="submit" value="add to cart" name="add_to_cart" class="btn">
+      </form>
+  
+    </div>
+ 
+    <div class="load-more" style="margin-top: 2rem; text-align:center">
+       <a href="shop.php" class="option-btn">load more</a>
+    </div>
+ 
+ </section>
+
+
+ <section class="about">
+
+    <div class="flex">
+ 
+       <div class="image">
+          <img src="images/about-img.jpg" alt="">
+       </div>
+ 
+       <div class="content">
+          <h3>about us</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
+          <a href="about.php" class="btn">read more</a>
+       </div>
+       
+    </div>
+ 
+ </section>
+ <section class="home-contact">
+
+    <div class="content">
+       <h3>have any questions?</h3>
+       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+       <a href="contact.php" class="white-btn">contact us</a>
+    </div>
+ 
+ </section>
+
+ 
+
+
+</section>
+
+<!--Footer-->
+<section class="footer">
+
+   <div class="box-container">
+
+      <div class="box">
+         <h3>quick links</h3>
+         <a href="home.php">home</a>
+         <a href="about.php">about</a>
+         <a href="shop.php">shop</a>
+         <a href="contact.php">contact</a>
+      </div>
+
+      <div class="box">
+         <h3>extra links</h3>
+         <a href="login.php">login</a>
+         <a href="register.php">register</a>
+         <a href="cart.php">cart</a>
+         <a href="orders.php">orders</a>
+      </div>
+
+      <div class="box">
+         <h3>contact info</h3>
+         <p> <i class="fas fa-phone"></i> 049-212-222 </p>
+         <p> <i class="fas fa-phone"></i> 044-212-222</p>
+         <p> <i class="fas fa-envelope"></i> dailybooks@gmail.com </p>
+         <p> <i class="fas fa-map-marker-alt"></i>Bulevardi “Nëna Terezë”, 87
+            Pristina 10000</p>
+      </div>
+
+      <div class="box">
+         <h3>follow us</h3>
+         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+      </div>
+
+   </div>
+
+
+
+</section>
+ 
+ 
+ 
+
+</body>
+</html>
